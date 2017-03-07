@@ -27,6 +27,9 @@ Change default page
 * sudo nano /etc/apache2/sites-available/000-default.conf
 change “DocumentRoot /var/www/html” to “DocumentRoot /var/www/IT350_Project/codeigniter”
 
+Database
+* Because Git doesn't support database files, it is best to keep the database out of the repository. On the server the database is called imf and is located in the /var/www folder. Make sure to create a database there on your local machine.
+
 ## Wiki
 Look at the Wiki for some information about how to use GitHub
 
