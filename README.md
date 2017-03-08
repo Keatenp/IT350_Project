@@ -8,7 +8,7 @@ Install Apache2
 Install PHP
 * sudo apt-get update
 * sudo apt-get upgrade
-* sudo apt-get install php
+* sudo apt-get install php5.6
 * sudo apt-get install libapache2-mod-php
 
 Install SQLite3
