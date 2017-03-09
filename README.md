@@ -1,6 +1,7 @@
 # IT350_Project
 
 ## Setup local machine
+Use Ubuntu 14.04 for your local machine
 Open the terminal in Ubuntu.
 Install Apache2
 * sudo apt-get install apache2
