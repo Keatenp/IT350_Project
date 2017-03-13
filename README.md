@@ -1,12 +1,14 @@
 # IT350_Project
 
 ## Setup local machine
-Use Ubuntu 14.04 for your local machine
+Use Ubuntu 14.04 for your local machine (16.04 has problems because php 7 is the default)
+
 Open the terminal in Ubuntu.
+
 Install Apache2
 * sudo apt-get install apache2
 
-Install PHP
+Install PHP 5 (version 7 doesn't work well with sqlite3)
 * sudo apt-get update
 * sudo apt-get upgrade
 * sudo apt-get install php5-cli
