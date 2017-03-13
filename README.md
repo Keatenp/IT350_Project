@@ -41,8 +41,9 @@ Look at the Wiki for some information about how to use GitHub
 ## Issues
 Bugs and tasks go under issues. Create an Issue for these so everyone knows what they are, and so we can work on them together
 
-## Troubleshooting
+## Troubleshooting/Tips
 Try these commands if you are having problems
 * sudo service apache2 restart
+* If you are in the /var/www folder Sudo is always recquired to change anything
 
 
