@@ -88,8 +88,17 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 
 <div>
 	<?php
-		$query = $this->db->get("test"); 
-		$data['status'] = $query->result();
+		//$query = $this->db->get("test"); 
+		//$data['status'] = $query->result();
+		//for(int i = 0; i < $data.length; i++){
+		//	echo $data[i];
+		//}
+		$query = $this->db->query("SELECT * FROM test;");
+		foreach ($query->result() as $row)
+		{
+		        echo $row->test;
+		        
+		}
 	?>
 </div>
 </body>
